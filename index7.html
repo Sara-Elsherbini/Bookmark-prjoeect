@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style7.css">
+
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="container">
+            <h3>Bookmarker</h3>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="bookmark">
+            <div class="column">
+                <h2>Bookmark your favorite sites </h2>
+                <p>Site Name</p>
+                <div>
+                    <input id="siteName" placeholder="Bookmark Name" type="text">
+                </div>
+
+                <div class="alert alert-error d-none mt-2 mx-auto" id="nameError">
+                    Name is required
+                </div>
+
+
+
+
+                <p>Site URL</p>
+                <input id="siteUrl" placeholder="website URL" type="text">
+                <div class="  mt-2  d-none alert alert-error mx-auto" id="urlError">
+                    Url Field is required
+                </div>
+
+                <div class="m-auto">
+                    <button class="btn btn-primary " id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bookmarkContainer" class="container  ">
+        <div id="bookmarkList" class="column ">
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <p>© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./js/bookmark.js"></script>
+</body>
+
+
+</html>
